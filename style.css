@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "KCC-Hanbit";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+p,
+b {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 2250px;
+  font-family: "KCC-Hanbit";
+}
+
+.wrapper {
+  width: 100%;
+  height: 60px;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  border: solid;
+  border-color: #8e8e8e;
+  border-width: 0px 0px 1px 0px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.logo {
+  margin-left: 6vw;
+  width: 7.5vw;
+  height: 3.5vh;
+}
+
+.logo img {
+  width: 7.5vw;
+  height: 3.5vh;
+}
+
+.contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents a {
+  text-decoration: none;
+  color: #3e3e3e;
+  font-size: 16px;
+  margin: 0px 20px;
+}
+
+#login-button {
+  background-color: #ffade3;
+  box-sizing: border-box;
+  border-radius: 13px;
+  width: 124px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #ffffff;
+}
+
+#post1 {
+  margin: 147px 310px 152px 444px;
+  display: flex;
+}
+
+#post2 {
+  margin: 0px 346px 268px 360px;
+  display: flex;
+}
+
+#post3 {
+  margin: 0px 274px 302px 390px;
+  display: flex;
+}
+
+#post4 {
+  margin: 0px 460px 285px 460px;
+  display: flex;
+  flex-direction: column;
+}
+
+#post1-hanbit p,
+#post1-pretendard p {
+  display: block;
+  text-overflow: clip;
+}
+
+.post-hanbit {
+  font-size: 44px;
+}
+
+.post-pretendard {
+  font-size: 16px;
+  margin-top: 14px;
+  font-family: "Pretendard-Regular";
+}
+
+#post1-img img {
+  width: 350px;
+  height: 350px;
+}
+
+#post1-img {
+  width: 350px;
+  height: 350px;
+  margin-left: 10px;
+}
+
+#post2-img img {
+  width: 250px;
+  height: 250px;
+}
+
+#post2-img {
+  width: 250px;
+  height: 250px;
+  margin-right: 10px;
+}
+
+#post3-img img {
+  width: 250px;
+  height: 250px;
+}
+
+#post3-img {
+  width: 250px;
+  height: 250px;
+}
+
+#post1-font {
+  margin-top: 60px;
+}
+
+#post2-font {
+  margin-top: 55px;
+}
+
+#post3-font {
+  margin-top: 31px;
+}
+
+#post-buttons {
+  margin-top: 21px;
+  gap: 9px;
+  display: flex;
+}
+
+#post-buttons a {
+  text-decoration: none;
+}
+
+#service-login {
+  border-radius: 13px;
+  background-color: #ffade3;
+  color: #ffffff;
+  width: 243px;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#service-rule {
+  border: solid;
+  border-color: #ffade3;
+  border-radius: 13px;
+  background-color: #ffffff;
+  color: #000000;
+  width: 243px;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
